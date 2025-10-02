@@ -4,8 +4,7 @@
 int main() {
 
     // Variáveis da primeira carta (Cidade 1)
-    char estado1;
-    char codigo1[3];
+    char estado1[3];
     char cidade1[50];
     unsigned long int populacao1 = 0; 
     float area1 = 0;
@@ -16,8 +15,7 @@ int main() {
     float superPoder1;
 
     // Variáveis da segunda carta (Cidade 2)
-    char estado2;
-    char codigo2[3];
+    char estado2[3];
     char cidade2[50];
     unsigned long int populacao2 = 0;
     float area2 = 0;
@@ -29,10 +27,8 @@ int main() {
 
     // Cadastro Carta 1
     printf("Cadastro da Carta 1\n\n");
-    printf("Insira a letra do estado (de A a H): ");
-    scanf(" %c", &estado1);
-    printf("Insira o código da cidade (de 01 a 04): ");
-    scanf("%2s", codigo1);
+    printf("Insira o estado (UF): ");
+    scanf("%2s", estado1);
     printf("Insira o nome da cidade: ");
     scanf(" %49[^\n]", cidade1);
     printf("Insira a populacao total de habitantes: ");
@@ -46,10 +42,8 @@ int main() {
 
     // Cadastro Carta 2
     printf("\nCadastro da Carta 2\n\n");
-    printf("Insira a letra do estado (de A a H): ");
-    scanf(" %c", &estado2);
-    printf("Insira o código da cidade (de 01 a 04): ");
-    scanf("%2s", codigo2);
+    printf("Insira o estado (UF): ");
+    scanf("%2s", estado2);
     printf("Insira o nome da cidade: ");
     scanf(" %49[^\n]", cidade2);
     printf("Insira a populacao total de habitantes: ");
@@ -124,8 +118,8 @@ int main() {
     
     printf("\n\n=== Comparação de Cartas ===\n");
     printf("Atributo Escolhido: %s (Maior valor vence)\n\n", atributo_comparado);
-    printf("Carta 1 - %s (%c): %lu\n", cidade1, estado1, populacao1);
-    printf("Carta 2 - %s (%c): %lu\n", cidade2, estado2, populacao2);
+    printf("Carta 1 - %s (%2s): %lu\n", cidade1, estado1, populacao1);
+    printf("Carta 2 - %s (%2s): %lu\n", cidade2, estado2, populacao2);
     
     printf("\nResultado: ");
 
