@@ -86,22 +86,22 @@ int main() {
     printf("\n\n=== Resumo das Cartas Cadastradas ===\n");
     printf("------------------------------------\n");
     printf("=== Carta 1: %s (%s) ===\n", cidade1, estado1);
-    printf("  1. População: %lu\n", populacao1);
-    printf("  2. Área: %.2f km²\n", area1);
-    printf("  3. PIB: %.2f bi\n", pib1);
-    printf("  4. Pontos Turísticos: %d\n", turismo1);
-    printf("  5. Densidade Populacional: %.2f hab/km²\n", densipop1);
-    printf("  6. PIB per Capita: %.2f reais\n", pibpercap1);
-    printf("  7. Super Poder: %.2f\n", superPoder1);
+    printf(" 1. População: %lu\n", populacao1);
+    printf(" 2. Área: %.2f km²\n", area1);
+    printf(" 3. PIB: %.2f bi\n", pib1);
+    printf(" 4. Pontos Turísticos: %d\n", turismo1);
+    printf(" 5. Densidade Populacional: %.2f hab/km²\n", densipop1);
+    printf(" 6. PIB per Capita: %.2f reais\n", pibpercap1);
+    printf(" 7. Super Poder: %.2f\n", superPoder1);
     printf("\n=== Carta 2: %s (%s) ===\n", cidade2, estado2);
     // ... (restante da exibição)
-    printf("  1. População: %lu\n", populacao2);
-    printf("  2. Área: %.2f km²\n", area2);
-    printf("  3. PIB: %.2f bi\n", pib2);
-    printf("  4. Pontos Turísticos: %d\n", turismo2);
-    printf("  5. Densidade Populacional: %.2f hab/km²\n", densipop2);
-    printf("  6. PIB per Capita: %.2f reais\n", pibpercap2);
-    printf("  7. Super Poder: %.2f\n", superPoder2);
+    printf(" 1. População: %lu\n", populacao2);
+    printf(" 2. Área: %.2f km²\n", area2);
+    printf(" 3. PIB: %.2f bi\n", pib2);
+    printf(" 4. Pontos Turísticos: %d\n", turismo2);
+    printf(" 5. Densidade Populacional: %.2f hab/km²\n", densipop2);
+    printf(" 6. PIB per Capita: %.2f reais\n", pibpercap2);
+    printf(" 7. Super Poder: %.2f\n", superPoder2);
     printf("------------------------------------\n");
 
 
